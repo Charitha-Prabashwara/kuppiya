@@ -55,6 +55,7 @@ class User
                     ) 
                     ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;";
             $result = $connection->query($sql);
+            $connection->close();
         } catch (Exception $e) {
             throw new Exception($e);
         } catch (mysqli_sql_exception $e) {
