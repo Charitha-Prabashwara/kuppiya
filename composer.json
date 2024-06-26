@@ -1,0 +1,15 @@
+{
+    "name": "devic/kuppiya",
+    "autoload": {
+        "psr-4": {
+            "Devic\\Kuppiya\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Charitha Prabhashwara",
+            "email": "69114151+Charitha-Prabashwara@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
